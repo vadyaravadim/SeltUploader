@@ -11,10 +11,10 @@ namespace SeltUploader.Model
     {
         internal const string Seltapi = "http://ashx.seltpd.ru/SeltService.svc";
         internal const string ApartmentsFullJson = "ApartmentsFullJson";
-        internal const string Authtoken = "мтр1614пост";
-        internal const string CrmLogin = "dyn_admin@metriumgr.onmicrosoft.com";
-        internal const string CrmPassword = "Sut601355";
-        internal const string CrmUrlAuth = @"RequireNewInstance=True;Url=https://org0063f16e.crm4.dynamics.com; Username=dyn_admin@metriumgr.onmicrosoft.com; Password=Sut601355; authtype=Office365";
+        internal const string Authtoken = "";
+        internal const string CrmLogin = "";
+        internal const string CrmPassword = "";
+        internal const string CrmUrlAuth = @"";
         internal static string UrlSeltRequest => $"{Seltapi}/{ApartmentsFullJson}/{Authtoken}";
     }
 
